@@ -1,0 +1,564 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.nav{
+    background-color: transparent;
+    height: 90px;
+    position: fixed;
+    width: 100%;
+}
+.nav h2{
+    float: left;
+    color: red;
+    padding: 20px 0;
+font-size: 32px;
+}
+
+.nav ul{
+float: right;
+list-style: none;
+}
+.nav ul li {
+    float: left;
+    margin: 0px 20px;
+    font-size: larger;
+    padding: 20px 0;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.nav ul li :hover{
+    color: red;
+}
+body{
+    text-transform: capitalize;
+}
+.welcomepage{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7 ), rgba(0,0,0,0.7)) ,url(./Fokir\ -\ Personal\ Portfolio\ Bootstrap\ Template/header.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.welcomepage .top-page{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 64px;
+    color: white;
+}
+.welcomepage .top-page h1{
+    font-size: 16px;
+}
+.welcomepage .top-page p{
+    line-height: 1.6;
+    font-size: 32px;
+}
+.second-sec{
+    margin: 50px 0;
+}
+.second-sec .second-img{
+    float: left;
+    width: 50%;
+    border: 5px solid gray;
+}
+.second-img img{
+    width: 100%;
+    display: block;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.second-sec .second-img .layer{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: top 1s;
+}
+.second-sec .second-img .img-wrapper{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.second-sec .second-img .img-wrapper:hover .layer{
+    top: 0;
+    overflow: hidden;
+}
+.second-sec .second-img .img-wrapper:hover .layer i{
+    color: white;
+}
+.second-sec .second-img .layer i{
+    float: left;
+    text-align: center;
+    width: 25%;
+    margin-top: 250px;
+    color: transparent;
+}
+
+.second-sec .second-img .img-wrapper .layer i:hover{
+    color: red;
+}
+
+
+.second-sec .cv{
+    float: right;
+    text-align: left;
+    width: 50%;
+    margin-top: 20px;
+    vertical-align: top;
+    padding-left: 50px;
+}
+
+.cv .data-person ul li{
+    list-style: none;
+   
+}
+.second-sec .cv p{
+    margin-bottom: 50px;
+}
+
+.second-sec .cv .data-person ul li{
+    float: left;
+    padding: 15px 37px;
+    margin-bottom: 20px;
+}
+
+
+.second-sec .cv .h21{
+    margin-bottom: 80px;
+    vertical-align: baseline;
+    font-size: 80px;
+    border-left: 10px solid red;
+    height: 50px;
+    text-transform: uppercase;
+    padding: 0 25px;
+    
+    
+    
+}
+.second-sec .cv .line{
+    border: dashed 1px;
+    margin: 35px 0;
+}
+
+.second-sec .cv .btn{
+    padding: 20px 30px;
+    
+}
+
+.second-sec .cv .btn1{
+    padding: 20px 30px;
+    border: 5px solid white;
+background-color: red;
+color: white;
+margin: 0 20px;
+}
+
+.second-sec .cv .btn :hover{
+    background-color: green;
+}
+.second-sec .cv .btn2{
+    padding: 20px 30px;
+    border: 5px solid white;
+    background-color: red;
+    color: white;
+}
+   
+
+.third-sec{
+    background-color: grey;
+    width: 100%;
+    min-height: auto ;
+    text-align: center; 
+}
+.third-sec h2{
+    font-size: 50px;
+    padding: 25px 0;
+    position: relative;
+    margin-bottom: 50px;
+}
+.third-sec h2::after{
+    content: '';
+    width: 350px;
+    height: 1px;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    top: 110%;
+    transform: translate(-50%);
+}
+
+.third-sec h2::before{
+    content: '';
+    width: 150px;
+    height: 10px;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    position: absolute;
+    left: 50%;
+    top: 110%;
+    transform: translate(-50%,-50%);
+}
+.third-sec .tthird-sec{
+    float: left;
+    width: 25%;
+    margin-bottom: 50px;
+}
+.third-sec .tthird-sec img{
+    width: 25%;
+    padding: 30px 0;
+}
+.third-sec .tthird-sec h3{
+    font-size: 32px;
+}
+
+.third-sec .tthird-sec p{
+    margin: 50px 0;
+}
+.tthird-sec:hover{
+    background-color: white;
+}
+
+.four-sec h1{
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+}
+.four-sec h1::after{
+    content: '';
+    width: 350px;
+    height: 1px;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    top: 110%;
+    transform: translate(-50%);
+}
+
+.four-sec h1::before{
+    content: '';
+    width: 150px;
+    height: 10px;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    position: absolute;
+    left: 50%;
+    top: 110%;
+    transform: translate(-50%,-50%);
+}
+.four-sec .name-portfolio {
+width: fit-content;
+margin:  20px auto;
+}
+.four-sec .name-portfolio h2{
+    float: left;
+    padding: 20px 20px ;
+}
+.four-sec .img-portfolio .item {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+
+}
+.four-sec .img-portfolio .item .inner{
+    position: relative;
+
+}
+.four-sec .img-portfolio .item .layer{
+    background-color: rgba(0,0,0,0.0);
+    position: absolute;
+    inset: 0;
+}
+
+.four-sec .img-portfolio .item img {
+    width: 100%;
+    display: block;
+}
+.four-sec .img-portfolio .item :hover{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.five-sec{
+    background-color: grey;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    margin-top: 30px;
+}
+.five-sec .ffive-sec{
+    float: left;
+    width: 25%;
+}
+.five-sec .ffive-sec img{
+    width: 25%;
+    padding: 30px 0;
+}
+
+.five-sec .ffive-sec p{
+    font-size: 16px;
+}
+.five-sec h2{
+    font-size: 32px;
+    position: relative;
+}
+.five-sec h2::after{
+    content: '';
+    width: 350px;
+    height: 1px;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    top: 110%;
+    transform: translate(-50%);
+}
+
+.five-sec h2::before{
+    content: '';
+    width: 150px;
+    height: 10px;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    position: absolute;
+    left: 50%;
+    top: 110%;
+    transform: translate(-50%,-50%);
+}
+.six-sec h1{
+    text-align: center;
+    margin: 50px 0;
+    position: relative;
+}
+.six-sec h1::after{
+    content: '';
+    width: 350px;
+    height: 1px;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    top: 110%;
+    transform: translate(-50%);
+}
+
+.six-sec h1::before{
+    content: '';
+    width: 150px;
+    height: 10px;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    position: absolute;
+    left: 50%;
+    top: 110%;
+    transform: translate(-50%,-50%);
+}
+.six-sec{
+    background-color: white;
+}
+.six-sec .c-feed {
+    width: 700px;
+    background: rgb(121,9,11);
+    background: linear-gradient(120deg, rgba(121,9,11,1) 5%, rgba(251,251,252,1) 22%, rgba(250,252,252,0) 100%);
+    float: right;
+    border: 5px solid rebeccapurple;
+    margin: 10px 200px;
+    padding: 10px 30px;
+}
+.six-sec .c-feed img{
+    float: left;
+    margin-right: 20px;
+    /* padding-bottom: 50px; */
+    width: 200px;
+    overflow: hidden;
+    border-radius: 100%;
+    
+}
+.six-sec .c-feed h2{
+    text-align: left;
+    margin: 20px 170px;
+}
+
+.seven-sec{
+    background-color: grey;
+    
+}
+.seven-sec{
+    width: 100%;
+    min-height: auto;
+}
+.seven-sec h2{
+    text-align: center;
+    margin: 50px 0;
+    padding: 30px 0;
+    position: relative;
+}
+.seven-sec h2::after{
+    content: '';
+    width: 350px;
+    height: 1px;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    top: 110%;
+    transform: translate(-50%);
+}
+
+.seven-sec h2::before{
+    content: '';
+    width: 150px;
+    height: 10px;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    position: absolute;
+    left: 50%;
+    top: 110%;
+    transform: translate(-50%,-50%);
+}
+.seven-sec .sseven-sec{
+    float: left;
+    width: 33.33%;
+    padding: 30px 20px;
+    text-align: center;
+    
+}
+
+.seven-sec .sseven-sec img{
+    width: 100%;
+    
+}
+.seven-sec .sseven-sec h3{
+    margin: 20px 0;
+}
+.seven-sec .sseven-sec p{
+    margin: 20px 0;
+}
+
+.seven-sec .sseven-sec{
+    width: 33.33%;
+}
+
+.eight-sec{
+    width: 100%;
+    min-height: auto;
+}
+.eight-sec h2{
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+}
+.eight-sec h2::after{
+    content: '';
+    width: 350px;
+    height: 1px;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    top: 110%;
+    transform: translate(-50%);
+}
+
+.eight-sec h2::before{
+    content: '';
+    width: 150px;
+    height: 10px;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    position: absolute;
+    left: 50%;
+    top: 110%;
+    transform: translate(-50%,-50%);
+}
+
+.eight-sec .form {
+    padding: 30px 30px;
+}
+.eight-sec .form .form1{
+    float: left;
+    width: 50%;
+    padding: 15px 37px;
+    list-style: none;
+}
+.eight-sec .form .form1 input{
+    padding: 15px 5px;
+}
+.eight-sec .form .form2{
+    float: left;
+list-style: none;
+width: 50%;
+padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 37px;
+}
+.eight-sec .form .form2 input{
+    padding-top: 10px;
+    padding-bottom: 90px;
+    padding-left: 22px;
+    width: 1000px;
+
+}
+.eight-sec .form .form21 input{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 22px;
+    width: 1000px;
+}
+.eight-sec .form .form21{
+    list-style: none;
+    float: left;
+    padding-left: 37px;
+    margin-top: 30px;
+}
+
+.eight-sec .formbtn button {
+padding: 20px 50px;
+margin: 300px -400px;
+float: left;
+background-color: red;
+
+}
+input:invalid{
+    border: 2px solid red;
+}
+input:valid{
+    border: 2px solid green;
+}
+input:focus{
+    outline: none ;
+}
+
+
+
+.footer{
+    background-color: rgb(58, 58, 58);
+  margin-top: 50px;
+  color: white;
+  padding: 60px 0;
+}
+
+.footer .socialmedia{
+    text-align: center;
+    padding: 20px;
+}
+.footer p{
+    text-align: center;
+}
+.footer .socialmedia i{
+    padding: 10px;
+}
+.clear{
+    clear: both;
+}
